@@ -1,6 +1,6 @@
 # Content-Based Recommendation System Using Deep Learning
 
-This project implements a content-based filtering recommender system for movies using a neural network. The goal is to predict user ratings for movies based on user preferences and movie features, leveraging deep learning techniques.
+Using a neural network, this project implements a content-based filtering recommender system for movies. The goal is to predict movie ratings based on user preferences and movie features, leveraging deep learning techniques.
 
 ## Table of Contents
 1. [Overview](#overview)
@@ -20,7 +20,7 @@ This project implements a content-based filtering recommender system for movies 
 
 ## Overview
 
-This project uses deep learning to implement a content-based recommendation system. The neural network generates user and movie vectors based on input features, and the dot product of these vectors predicts user ratings for movies. The model is built using Python and TensorFlow, with additional utilities for data preprocessing and evaluation.
+This project uses deep learning to implement a content-based recommendation system. The neural network generates user and movie vectors based on input features, and the dot product of these vectors predicts user ratings for movies. The model uses Python and TensorFlow, with additional utilities for data preprocessing and evaluation.
 
 ---
 
@@ -90,7 +90,7 @@ The outputs of the user and movie networks are normalized and combined using a d
 ## Predictions
 
 ### Predictions for New Users
-1. Create a new user vector with desired preferences (e.g., favorite genres).
+1. Create a new user vector with desired preferences (e.g., favourite genres).
 2. Scale the user vector and replicate it to match the number of movies in the dataset.
 3. Predict ratings for all movies.
 4. Display top recommended movies based on predicted ratings.
