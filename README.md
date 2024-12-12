@@ -13,8 +13,7 @@ Using a neural network, this project implements a content-based filtering recomm
     - [Predictions for Existing Users](#predictions-for-existing-users)
     - [Finding Similar Items](#finding-similar-items)
 7. [Utilities](#utilities)
-8. [Setup and Execution](#setup-and-execution)
-9. [Acknowledgments](#acknowledgments)
+8. [Acknowledgments](#acknowledgments)
 
 ---
 
